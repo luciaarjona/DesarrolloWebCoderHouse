@@ -9,42 +9,27 @@
     .nav-link{
         color: #464646;
     }
-}
-.main{
-    .contenedorTextoMainIndex{
-        text-align: center;
-        .botonTienda{
-            display: inline-block;
-            text-align: center;
-            text-decoration: none;
-            color: rgb(129, 98, 57);
-            background-color: blanchedalmond;
-            font-size: 19px; 
-            line-height: 19px; 
-            padding: 11px; 
-            border-radius: 10px 10px 10px 10px;   
-            box-shadow: rgba(0, 0, 0, 0.53) 5px 4px 15px 0px; 
-            border: 2px solid blanchedalmond(28, 110, 164); 
-            font-family: "Biryani", sans-serif;
-        }
-        .fuenteTitulo {
-            color: black;
-            font-size: 60px;
-            font-family: 'Barlow Condensed', sans-serif;
-            margin-top: 50px;
-            margin-bottom: 50px;
+    @media (max-width: 768px) {
+        .logo {
+            width: 100px;
+            height: auto;
         }
     }
-    .contenedorTarjeta{
-        display: block;
-        width: 70%;
-        height: 40%;
-        margin: 40px auto;
+    
+}
+.main{
+        .boton{
+        color: rgb(255, 255, 255);
+        background-color: rgb(110, 107, 103);
+        font-family: "Biryani", sans-serif;
+        border-color: rgb(110, 107, 103);
+        }
+        .h1 {
+            font-family: 'Barlow Condensed', sans-serif;
+        }
+
         .tituloNuevo{
-            font-size: 30px;
             font-family: "Biryani", sans-serif;
-            text-align: center;
-            background-color: blanchedalmond;
         }
         .tarjeta {
             width: 50%;
@@ -76,7 +61,7 @@
                 margin-bottom: 10px;
             }
         }
-}
+
     .contenedorFormulario{
         margin-top: 20px;
         margin-bottom: 20px;
