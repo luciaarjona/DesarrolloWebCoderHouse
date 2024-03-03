@@ -1,52 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100&family=Biryani:wght@200&display=swap');
 
 * {
-    margin: 0;
-    padding: 0;
     box-sizing: border-box;
     font-family: "Biryani", sans-serif;
 }
 
 .header {
-    margin: 10px 50px 100px 100px;
-    color: rgb(169, 130, 130);
-    .tituloEnlace{
-        font-size: 18px;
-        font-family: "Biryani", sans-serif;
-        color: rgb(129, 98, 57);
-        text-decoration: none;
-    }
-    .imagenLogo{
-        width: 10%;
-
+    .nav-link{
+        color: #464646;
     }
 }
-p {
-    font-size: 1rem;
-}
-
-h1 {
-    color: black;
-    font-size: 40px;
-    font-family: 'Barlow Condensed', sans-serif;
-}
-h2{
-    color: black;
-    font-size: 30px;
-    font-family: "Biryani", sans-serif;
-    margin: auto;
-}
-h3{
-    color: black;
-    font-size: 20px;
-    font-family: "Biryani", sans-serif; 
-}
-h4{
-    color: black;
-    font-size: 16px;
-    font-family: "Biryani", sans-serif; 
-}
-
 .main{
     .contenedorTextoMainIndex{
         text-align: center;
@@ -200,35 +163,8 @@ h4{
     }
 }
 .footer{
-    .imagenLogo{
-        width: 10%;
-        margin: 10px 10px 50px 100px;
-
-    }
-    .contenedorRedesSociales{
-        text-align: center;
-        .tituloH3Redes{
-            font-size: 20px;
-            font-family: "Biryani", sans-serif;
-            margin-top: 10px;
-            margin-bottom: 10px;
-        }
-        .iconoRedes{
-            margin: 10px 10px;
-            height: 20%;
-            width: 20%;
-
-        }
-        .parrafoRedes{
-            font-size: 20px;
-            font-family: "Biryani", sans-serif; 
-            margin-top: 7px;
-            margin-bottom: 10px;
-        }
-
-    }
-    .parrafoCopyright{
-        margin: 10px 10px 50px 100px;
-
+    background-color: rgb(183, 181, 179);
+    .fa-instagram, .fa-whatsapp{
+        color: white;
     }
 }

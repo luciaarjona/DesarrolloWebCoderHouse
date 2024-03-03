@@ -6,19 +6,39 @@
         <script src="https://kit.fontawesome.com/a7d361790f.js" crossorigin="anonymous"></script>
         <title>Ama La Realidad</title>
         <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
         <link rel="stylesheet" href="../css/estilos.css">
   </head>
   <body>
-    <header class="header">
-      <img class="imagenLogo" src="../assets/img/logo.png" alt="Logo de Ama La Realidad">
-      <nav>
-          <ul>
-              <li><a class="tituloEnlace" href="../index.html">INICIO</a></li>
-              <li><a class="tituloEnlace" href="../pages/tienda.html">TIENDA</a></li>
-              <li><a class="tituloEnlace" href="../pages/catalogo_mayorista.html">CATALOGO MAYORISTA</a></li>
-              <li><a class="tituloEnlace" href="../pages/nosotros.html">NOSOTROS</a></li>
-              <li><a class="tituloEnlace" href="../pages/puntos_de_venta.html">PUNTOS DE VENTA</a></li>
-          </ul>
+    <header class="header container-fluid h-25 d-flex align-items-center justify-content-between navbar-text px-5">
+      <div>
+          <a class="navbar-brand">
+              <img src="../assets/img/logo.jpg" alt="logo" width="150" height="70">
+          </a>
+      </div>
+      <nav class="navbar navbar-expand-lg navbar-light">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ms-auto">
+                  <li class="nav-item">
+                      <a class="nav-link" href="../index.html">INICIO</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="./tienda.html">TIENDA</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="./catalogo_mayorista.html">CATÁLOGO MAYORISTA</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="./nosotros.html">NOSOTROS</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="./puntos_de_venta.html">PUNTOS DE VENTA</a>
+                  </li>
+              </ul>
+          </div>
       </nav>
   </header>
      <main>
@@ -34,27 +54,25 @@
         </form>
       </section>
      </main>
-     <footer class="footer">
-      <img class="imagenLogo" src="../assets/img/logo.png" alt="Logo de la marca">
-  <section class="contenedorRedesSociales">
-      <h3 class="tituloH3Redes">Redes Sociales</h3>
-      <ul>
-          <li><a class="iconoRedes" href="https://www.instagram.com/amalarealidad/" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
-          <li><a class="iconoRedes" href="https://web.whatsapp.com/#" target="_blank"><i class="fa-brands fa-whatsapp"></i></a></li>
-      </ul>
-  </section>
-  <section class="contenedorRedesSociales">
-      <h3 class="tituloH3Redes">Ubicación</h3>
-      <p class="parrafoRedes">Gutierrez 1269</p>
-      <p class="parrafoRedes">Santa Fe Capital, Argentina</p>
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3397.253233392371!2d-60.68799112525652!3d-31.626916174165327!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b5a9f268648eb3%3A0x21992432a8ebf65f!2sJos%C3%A9%20Mar%C3%ADa%20Guti%C3%A9rrez%201269%2C%20S3002CMB%20Santa%20Fe%20de%20la%20Vera%20Cruz%2C%20Santa%20Fe!5e0!3m2!1ses!2sar!4v1707758298682!5m2!1ses!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-  </section>
-  <section class="contenedorRedesSociales">
-      <h3 class="tituloH3Redes">Contacto</h3>
-      <p class="parrafoRedes">54 342 525 7313</p>
-      <p class="parrafoRedes">maryb9ar@gmail.com</p>
-  </section>
-  <p class="parrafoCopyright">Todos los derechos reservados</p>
-</footer>
+     <footer class="footer container-fluid d-flex justify-content-evenly mt-3">
+        <section class="px-5 d-flex flex-column text-center my-3">
+           <h4 class="h4 mb-4">Redes Sociales</h4>
+           <ul class="list-unstyled text-decoration-none">
+                <li class="mb-3"><a href="https://www.instagram.com/amalarealidad/" target="_blank"><i class="fa-brands fa-instagram fa-2x"></i></a></li>
+                <li class="mb-3"><a href="https://web.whatsapp.com/#" target="_blank"><i class="fa-brands fa-whatsapp fa-2x"></i></a></li>
+           </ul>
+        </section>
+        <section class="px-5 d-inline-flex flex-column text-center">
+           <h4 class="h4 my-3">Ubicación</h4>
+           <p class="h6 my-3">Gutierrez 1269</p>
+           <p class="h6 my-3">Santa Fe Capital, Argentina</p>
+           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3397.253233392371!2d-60.68799112525652!3d-31.626916174165327!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b5a9f268648eb3%3A0x21992432a8ebf65f!2sJos%C3%A9%20Mar%C3%ADa%20Guti%C3%A9rrez%201269%2C%20S3002CMB%20Santa%20Fe%20de%20la%20Vera%20Cruz%2C%20Santa%20Fe!5e0!3m2!1ses!2sar!4v1707758298682!5m2!1ses!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+        <section class="px-5 d-inline-flex flex-column text-center">
+           <h4 class="h4 my-3">Contacto</h4>
+           <p class="h6 my-3">54 342 525 7313</p>
+           <p class="h6 my-3">maryb9ar@gmail.com</p>
+        </section>
+    </footer>
   </body>
 </html>
