@@ -4,151 +4,64 @@
     box-sizing: border-box;
     font-family: "Biryani", sans-serif;
 }
-
 .header {
+    background-image: url('./assets/img/fondo.jpg');
+    background-size: cover;
+    background-position: center;
     .nav-link{
         color: #464646;
     }
-    @media (max-width: 768px) {
-        .logo {
+    .logo {
             width: 100px;
             height: auto;
-        }
     }
     
 }
+.titulo{
+    font-family: 'Barlow Condensed', sans-serif;
+}
+.texto{
+    font-family: "Biryani", sans-serif;
+}
+.boton{
+    color: rgb(255, 255, 255);
+    background-color: rgb(110, 107, 103);
+    font-family: "Biryani", sans-serif;
+    border-color: rgb(110, 107, 103);
+}
+.card{
+
+}
+.card-body {
+    color: black; /* Color de texto negro */
+}
+.list-inline-item {
+    margin-right: 10px; /* Espacio entre los íconos */
+}
+.carousel-item{
+    height: 600px;
+    width: 300px;
+}
+.img-fluid{
+    height: 300px;
+    width: auto;
+    object-fit: cover;
+}
 .main{
-        .boton{
-        color: rgb(255, 255, 255);
-        background-color: rgb(110, 107, 103);
-        font-family: "Biryani", sans-serif;
-        border-color: rgb(110, 107, 103);
-        }
-        .h1 {
+    .h1 {
             font-family: 'Barlow Condensed', sans-serif;
-        }
-
-        .tituloNuevo{
-            font-family: "Biryani", sans-serif;
-        }
-        .tarjeta {
-            width: 50%;
-            height: 25%;
-            background-color: blanchedalmond;
-            border: 1px solid #000000;
-            border-radius: 0px 0px 10px 10px;
-            margin-top: 10px;
-            margin-bottom: 10px;
-            .imgTarjeta{
-                width: 100%;
-                height: 30%;
-                object-fit: contain;
-                object-fit: cover;
-            }
-            .tituloH4Tarjeta{
-                margin-top: 7px;
-                margin-bottom: 10px;
-                font-size: 20px;
-                font-family: "Biryani", sans-serif;
-                font-weight: 500;
-                text-align: center;
-            }
-            .parrafoCard{
-                font-size: 20px;
-                font-family: "Biryani", sans-serif; 
-                text-align: center;
-                margin-top: 7px;
-                margin-bottom: 10px;
-            }
-        }
-
-    .contenedorFormulario{
-        margin-top: 20px;
-        margin-bottom: 20px;
-        text-align: center;
-        background-color: blanchedalmond;
-        .tituloH2Suscribite{
-            font-size: 25px;
-            font-family: "Biryani", sans-serif;
-            margin-top: 10px;
-            margin-bottom: 10px;
-        }
-        .parrafoSuscri{
-            font-size: 20px;
-            margin-top: 10px;
-            margin-bottom: 10px;
-            font-size: "Biryani", sans-serif;
-        }
-        .textSuscri{
-            font-size: 18px;
-            margin: 10px 10px;
-            font-size: "Biryani", sans-serif;
-        }
-        .botonSuscri{
-            line-height: 16px;
-            padding: 7px;
-            border-radius: 10px;
-            text-decoration: none;
-            box-shadow: black 5px 5px 15px 5px;
-            border: 1px solid rgb(0, 0, 0);
-            font-size: 16px;
-            font-size: "Biryani", sans-serif;
-            margin: 10px 10px;
-        }
     }
-    .contenedorCatalogo{
-        display: block;
-        width: 60%;
-        height: 30%;
-        margin: 30px auto;
-        text-align: center;
-        .tituloCatalogo{
-            font-size: 30px;
+    .gray-background {
             font-family: "Biryani", sans-serif;
-            margin-top: 10px;
-            margin-bottom: 10px;
-        }
-        .botonIr{
-            display: inline-block;
-            text-align: center;
-            text-decoration: none;
-            color: rgb(129, 98, 57);
-            background-color: blanchedalmond;
-            font-size: 19px; 
-            line-height: 19px; 
-            padding: 11px; 
-            border-radius: 10px 10px 10px 10px;   
-            box-shadow: rgba(0, 0, 0, 0.53) 5px 4px 15px 0px; 
-            border: 2px solid blanchedalmond(28, 110, 164); 
-            font-family: "Biryani", sans-serif;
-        }
-        .tarjeta2{
-            width: 50%;
-            height: 25%;
-            background-color: blanchedalmond;
-            border: 1px solid #000000;
-            border-radius: 0px 0px 10px 10px;
-            margin-top: 10px;
-            margin-bottom: 10px;
-            .imgTarjeta2{
-                width: 100%;
-                height: 30%;
-                object-fit: contain;
-                object-fit: cover;
-            }
-            .textTarjeta2{
-                font-size: 20px;
-                font-family: "Biryani", sans-serif; 
-                text-align: center;
-                margin-top: 7px;
-                margin-bottom: 10px;
-            }
-
-        }
+            background-color: rgb(183, 181, 179, 0.6);
+            padding: 20px;
+            color: black;
     }
 }
 .footer{
     background-color: rgb(183, 181, 179);
+    color: white;
+    font-family: "Biryani", sans-serif;
     .fa-instagram, .fa-whatsapp{
         color: white;
     }
