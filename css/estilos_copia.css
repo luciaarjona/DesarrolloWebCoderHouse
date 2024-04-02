@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100&family=Biryani:wght@200&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: "Biryani", sans-serif;
+}
+.header {
+    background-image: url('./assets/img/fondo.jpg');
+    background-size: cover;
+    background-position: center;
+    .nav-link{
+        color: #cb8e7e;
+    }
+    .logo {
+            width: 100px;
+            height: auto;
+    }
+    
+}
+.titulo{
+    font-family: 'Barlow Condensed', sans-serif;
+}
+.texto{
+    font-family: "Biryani", sans-serif;
+}
+.boton{
+    color: rgb(255, 255, 255);
+    background-color: #253439;
+    font-family: "Biryani", sans-serif;
+    border-color: #253439;
+}
+.card-body {
+    color: black;
+}
+.list-inline-item {
+    margin-right: 10px;
+}
+.img-fluid{
+    object-fit: cover;
+}
+.main{
+    .h1 {
+            font-family: 'Barlow Condensed', sans-serif;
+    }
+    .gray-background {
+            font-family: "Biryani", sans-serif;
+            background-color: #b29e84;
+            padding: 20px;
+            color: black;
+            opacity: 75%;
+    }
+    .fa-instagram, .fa-whatsapp{
+        color: black;
+    }
+    .fondoNosotros{
+        background-image: url('../assets/img/fondonosotros.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+}
+.footer{
+    background-color: #423e3a;
+    color: white;
+    font-family: "Biryani", sans-serif;
+    .fa-instagram, .fa-whatsapp{
+        color: white;
+    }
+}

@@ -1,0 +1,40 @@
+.main{
+    .h1 {
+        font-family:$font-familybiryani;
+    }
+    .gray-background {
+        font-family:$font-familybiryani;
+        background-color:$color-main;
+        padding: map-get($padding , padding-20 );
+        color:$color-black;
+        opacity: 75%;
+    }
+    .fa-instagram, .fa-whatsapp{
+    color:$color-black;
+    }
+    .fondoNosotros{
+    background-image: url('../assets/img/fondonosotros.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    }
+    .cardPunto{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        min-width: 0;
+        word-wrap: break-word;
+        background-color:$color-white;
+        background-clip: border-box;
+        border: 1px solid $color-black;
+        border-radius: 0.25rem;
+        margin-top: 3rem;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .cardTienda{
+        @extend .cardPunto;
+        height: 100%;
+        text-align: center;
+    }
+}

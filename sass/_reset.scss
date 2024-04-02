@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+    font-family:$font-familybiryani;
+}
+.titulo{
+    font-family:$font-familybarlow;
+}
+.texto{
+    font-family:$font-familybiryani;
+}
+.boton{
+    color:$color-white;
+    background-color:$color-darkblue;
+    font-family:$font-familybiryani;
+    border-color:$color-darkblue;
+}
+.card-body {
+    color:$color-darkblue;
+}
+.list-inline-item {
+    margin-right: 10px;
+}
+.img-fluid{
+    object-fit: cover;
+}

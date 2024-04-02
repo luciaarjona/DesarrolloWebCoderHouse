@@ -1,0 +1,22 @@
+{
+  "name": "53795_luciaarjona_entrega3",
+  "version": "1.0.0",
+  "description": "entrega final del proyecto de lucia",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luciaarjona/DesarrolloWebCoderHouse.git"
+  },
+  "author": "lucia arjona",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luciaarjona/DesarrolloWebCoderHouse/issues"
+  },
+  "homepage": "https://github.com/luciaarjona/DesarrolloWebCoderHouse#readme",
+  "dependencies": {
+    "sass": "^1.72.0"
+  }
+}
